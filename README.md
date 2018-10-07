@@ -1,1 +1,1 @@
-# spring-boot-microsoft-graph-auth-demo
+# spring-boot-microsoft-graph-auth-demo [![Build status](https://ci.appveyor.com/api/projects/status/0on170mi64kt71td/branch/master?svg=true)](https://ci.appveyor.com/project/Frederick-S/spring-boot-microsoft-graph-auth-demo/branch/master) [![CircleCI](https://circleci.com/gh/Frederick-S/spring-boot-microsoft-graph-auth-demo.svg?style=shield)](https://circleci.com/gh/Frederick-S/spring-boot-microsoft-graph-auth-demo) [![ktlint](https://img.shields.io/badge/code%20style-%E2%9D%A4-FF4081.svg)](https://ktlint.github.io/)
