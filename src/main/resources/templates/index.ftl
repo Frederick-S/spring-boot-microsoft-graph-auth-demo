@@ -4,6 +4,7 @@
         <title>Index</title>
     </head>
     <body>
-        <h1>Index</h1>
+        <h1 id="name"></h1>
+        <script src="/js/index.js"></script>
     </body>
 </html>

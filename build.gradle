@@ -36,6 +36,8 @@ dependencies {
     compile 'com.fasterxml.jackson.module:jackson-module-kotlin:2.9.7'
     compile "org.springframework.boot:spring-boot-starter-web:$springVersion"
     compile "org.springframework.boot:spring-boot-starter-freemarker:$springVersion"
+    compile "org.springframework.boot:spring-boot-starter-security:$springVersion"
+    compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springVersion"
     ktlint "com.github.shyiko:ktlint:0.29.0"
 }
 
