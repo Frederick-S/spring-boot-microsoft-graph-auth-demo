@@ -9,7 +9,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 @Order(value = 101)
 open class SecurityConfig : WebSecurityConfigurerAdapter() {
     @Bean
-    open fun graphPrincipalExtractor(): GraphPrincipalExtractor {
+    open fun getGraphPrincipalExtractor(): GraphPrincipalExtractor {
         return GraphPrincipalExtractor()
     }
 }
