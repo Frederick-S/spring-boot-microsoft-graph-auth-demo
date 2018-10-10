@@ -1,3 +1,3 @@
 package demo.model
 
-class User(var name: String)
+class User(var displayName: String)

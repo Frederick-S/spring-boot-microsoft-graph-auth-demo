@@ -5,8 +5,8 @@ import org.springframework.boot.autoconfigure.security.oauth2.resource.Principal
 
 class GraphPrincipalExtractor : PrincipalExtractor {
     override fun extractPrincipal(map: MutableMap<String, Any>?): Any {
-        val name = map?.get("displayName") as String
+        val displayName = map?.get("displayName") as String
 
-        return User(name)
+        return User(displayName)
     }
 }

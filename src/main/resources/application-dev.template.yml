@@ -6,6 +6,6 @@ security:
       access-token-uri: https://login.microsoftonline.com/common/oauth2/v2.0/token
       user-authorization-uri: https://login.microsoftonline.com/common/oauth2/v2.0/authorize
       authentication-scheme: header
-      scope: User.Read
+      scope: User.Read,Notes.Read.All
     resource:
       user-info-uri: https://graph.microsoft.com/v1.0/me
