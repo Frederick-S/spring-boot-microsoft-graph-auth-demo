@@ -9,7 +9,5 @@ import java.security.Principal
 @RestController
 class UserController : BaseController() {
     @GetMapping("/me")
-    fun me(principal: Principal): User {
-        return (principal as OAuth2Authentication).userAuthentication.principal as User
-    }
+    fun me(principal: Principal) = (principal as OAuth2Authentication).userAuthentication.principal as User
 }
